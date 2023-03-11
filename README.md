@@ -8,12 +8,16 @@ https://drive.google.com/drive/folders/1a1dt63nnGzxrSCbQb-jevtmVWN2jZpUZ?usp=sha
 - Simulation Datasets: Square and Elliptical are two simulated datasets, as illustrated in Fig. 2.
 - Real-Word Datasets: Cho and Iyer are two gene sequences datasets. A short description of these datasets can be found at https://drive.google.com/drive/folders/1a1dt63nnGzxrSCbQb-jevtmVWN2jZpUZ?usp=share_link.
 
+![Figure 1](https://github.com/lin-shuang/clustering-analysis/blob/main/misc/Figure_1.jpg?raw=true)
+
 Complete the Following Tasks on Simulation Datasets:
 - Implement k-means and spectral clustering algorithms to find 2 clusters on Square and Elliptical datasets and visualize your results. Compare the two methods and discuss their pros and cons. Fig. 2 shows the ideal clustering results for your reference.
 - Discuss the effects of centroid initialization on k-means clustering results.
 - Present the performance analysis of the spectral clustering algorithm using different similarity measures like cosine similarity and Gaussian kernel similarity (set an appropriate bandwidth parameter for Gaussian kernel).
 - Present the performance analysis of the spectral clustering algorithm using different Laplacian matrices like unnormalized Laplacian and normalized symmetric Laplacian.
 - Note: You are allowed to call k-means and spectral clustering functions from any packages or libraries if needed, but be sure you know how to properly use them
+
+![Figure 1](https://github.com/lin-shuang/clustering-analysis/blob/main/misc/Figure_2.jpg?raw=true)
 
 Complete the Following Tasks on Real-World Datasets:
 - Use k-means and spectral clustering algorithms to find clusters of genes on Cho and Iyer datasets which exhibit similar expression profiles. Note that there are some noise samples in Iyer dataset where a label of “-1” means outliers, you should consider preprocessing your data.
